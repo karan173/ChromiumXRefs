@@ -39,7 +39,7 @@ Using Package Control, install the package named ChromiumXRefs.
 
 ### Jump to Declaration
 - **Command**: Jump to Declaration
-- **Suggested Keymap Binding**: { "keys": ["ctrl+shift+\\\\"], "command": "chromium_xrefs_jump_to_definition" }
+- **Suggested Keymap Binding**: { "keys": ["ctrl+shift+\\\\"], "command": "chromium_xrefs_jump_to_declaration" }
 - **Function**: Jumps to the definition of the keyword.
 
 ### Suggested mouse mapping
@@ -54,7 +54,7 @@ Using Package Control, install the package named ChromiumXRefs.
     "count": "1",
     "modifiers": ["ctrl", "alt"],
     "press_command": "drag_select",
-    "command": "chromium_get_callers_hierarchy"
+    "command": "chromium_xrefs"
   },
 
   {
@@ -62,7 +62,7 @@ Using Package Control, install the package named ChromiumXRefs.
     "count": "1",
     "modifiers": ["ctrl", "alt"],
     "press_command": "drag_select",
-    "command": "chromium_recall_get_callers_hierarchy"
+    "command": "chromium_recall_xrefs"
   }
 ]
 ```
